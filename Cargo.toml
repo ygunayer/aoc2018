@@ -1,0 +1,8 @@
+[package]
+name = "aoc2018"
+version = "0.1.0"
+authors = ["Yalin <yalin.gunayer@gmail.com>"]
+
+[dependencies]
+itertools = "0.7.11"
+futures = "0.1"
