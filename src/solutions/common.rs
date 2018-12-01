@@ -9,5 +9,5 @@ pub trait Solution {
     type Output;
     type Error: SolutionError;
 
-    fn solve(&mut self) -> Future<Item = Self::Output, Error = Self::Error>;
+    fn solve(&mut self) -> Result<Self::Output, Self::Error>;
 }
