@@ -10,6 +10,7 @@ use solutions::*;
 fn solve(day: i32, question: i32) {
     match day {
         1 => day01::solve(question),
+        2 => day02::solve(question),
         _ => println!("Unknown day {:?}", day)
     }
 }
