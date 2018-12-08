@@ -1,3 +1,5 @@
+use std::fmt::Debug;
+
 pub fn collect_into<T, E, I>(bucket: &mut Vec<T>, iter: I) -> Result<(), E>
     where I: Iterator<Item = Result<T, E>>
 {

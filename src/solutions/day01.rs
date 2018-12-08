@@ -4,7 +4,7 @@ use std::num::ParseIntError;
 use std::collections::HashMap;
 use std::fmt::{Formatter, Debug, Result as FormatterResult};
 
-use super::super::util;
+use util;
 
 fn as_io_error(e: ParseIntError) -> Error {
     Error::new(ErrorKind::InvalidInput, e.to_string())

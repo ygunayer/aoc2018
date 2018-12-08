@@ -1,5 +1,6 @@
 #[macro_use] extern crate itertools;
 extern crate futures;
+extern crate levenshtein;
 
 mod util;
 mod solutions;

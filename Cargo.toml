@@ -6,3 +6,4 @@ authors = ["Yalin <yalin.gunayer@gmail.com>"]
 [dependencies]
 itertools = "0.7.11"
 futures = "0.1"
+levenshtein = "1.0.3"
